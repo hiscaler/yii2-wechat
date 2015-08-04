@@ -1,6 +1,9 @@
 {
     "name": "yadjet/yii2-wechat",
-    "description": "wechat for Yii2",
+    "description": "overtrue Wechat SDK for Yii2",
+    "keywords": ["yii2", "wechat"],
+    "type": "project",
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.4",
         "yiisoft/yii2": "*",
