@@ -21,11 +21,13 @@ composer require "yadjet/yii2-wechat:dev-master"
 ```
 
 * 示例代码
+```php
 class TestController extends \yii\web\Controller
 {
     $userService = Yii::$app->wechat->getService('user');
     $users = $userService->get();
     var_dump($users);
 }
+```
 
-wechat SDK 详细的使用方法请参考 [overtrue/wechat 使用手册](https://github.com/overtrue/wechat/wiki)
+Wechat SDK 详细的使用方法请参考 [overtrue/wechat 使用手册](https://github.com/overtrue/wechat/wiki)
