@@ -1,0 +1,21 @@
+{
+    "name": "yadjet/yii2-wechat",
+    "description": "wechat for Yii2",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*",
+        "overtrue/wechat": "2.0.*"
+    },
+    "authors": [
+        {
+            "name": "hiscaler",
+            "email": "hiscaler@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "yadjet\\yii2-wechat\\": "src"
+        }
+    }
+}
