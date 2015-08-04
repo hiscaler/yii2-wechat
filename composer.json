@@ -18,7 +18,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "yadjet\\yii2-wechat\\": "src"
+            "yadjet\\wechat\\": "src"
         }
     }
 }
